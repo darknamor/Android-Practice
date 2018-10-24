@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SeguroApp</string>
+    <string name="txv_titulo">Seguro App</string>
+    <string name="txv_instruccion">Ingrese el año de su vehículo</string>
+    <string name="hint_ano_vehículo">Ingrese Año</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="txv_resultado">Resultado</string>
+</resources>

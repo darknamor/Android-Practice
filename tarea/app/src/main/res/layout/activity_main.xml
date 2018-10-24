@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="218dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logo_inacap_400x109"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icons8_money_bag_96px"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/edt_dolar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hnt_dolar"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/txv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_resultado"
+        />
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_calcular"
+        android:drawableRight="@drawable/icons8_cash__24px"/>
+
+
+</LinearLayout>

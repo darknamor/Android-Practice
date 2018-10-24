@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Inacap One</string>
+    <string name="txt_titulo">Primera App Android</string>
+    <string name="txt_edad">Edad</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="txt_resultado">Resultado</string>
+    <string name="hnt_edad">Ingrese Edad</string>
+    <string name="txt_titulo_resultado">Resultado Peso Ideal</string>
+    <string name="hnt_nombre">Ingrese nombre</string>
+</resources>

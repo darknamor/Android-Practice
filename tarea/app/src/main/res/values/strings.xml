@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Conversor de divisas</string>
+    <string name="hnt_dolar">Ingrese cantidad de dolares</string>
+    <string name="hnt_peso">Ingrese nombre</string>
+    <string name="txt_resultado">Resultado</string>
+    <string name="btn_calcular">Calcular</string>
+</resources>

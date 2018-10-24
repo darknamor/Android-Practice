@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_titulo"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/car_128x128" />
+
+    <TextView
+        android:id="@+id/txv_instruccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txv_instruccion"
+        android:layout_gravity="center"
+        android:textSize="26dp"/>
+
+    <EditText
+        android:id="@+id/edt_ano_vehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_ano_vehículo"
+        android:inputType="number"
+        />
+
+    <ImageButton
+        android:id="@+id/imb_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/process_32x32"/>
+
+    <TextView
+        android:id="@+id/txv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/txv_resultado"
+        android:textSize="27dp" />
+
+
+
+</LinearLayout>
